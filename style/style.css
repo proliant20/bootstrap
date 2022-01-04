@@ -47,3 +47,56 @@ img {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.479);
 }
+
+@media (max-width: 1000px) {
+  .navbar-nav {
+    padding: 30px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+  }
+
+  li {
+    padding: 5px;
+  }
+
+  .navbar-toggler {
+    position: fixed;
+    top: 25px;
+    right: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .navbar-nav {
+    padding: 30px;
+    display: flex;
+    margin-right: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #navigacija {
+    background-color: rgb(0, 0, 0);
+  }
+
+  #navigacija .container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  li {
+    padding: 5px;
+  }
+
+  .navbar-toggler {
+    position: fixed;
+    top: 25px;
+    right: 30px;
+  }
+}
